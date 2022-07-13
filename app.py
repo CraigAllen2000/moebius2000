@@ -147,4 +147,5 @@ def update_output_div(tick_input,date_input_start,date_input_end,sma_input,ema_i
     fig2.update_layout(autosize=False,height=300)
     return fig1,fig2,new_clicks,str(profit)+r"% Profit/Loss"
 
-app.run_server(debug=True, use_reloader=False)  # Turn off reloader if inside Jupyter
+if __name__ == "__main__":
+    app.run_server(debug=True, use_reloader=False)  # Turn off reloader if inside Jupyter
