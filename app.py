@@ -11,7 +11,7 @@ import datetime
 from plotly.subplots import make_subplots
 from stock_tools import *
 
-
+#hello
 #fig.add_trace(go.Scatter(x=[datetime.datetime(2021,5,1),datetime.datetime(2021,4,1),datetime.datetime(2021,6,1)], y=[140, 150, 145],mode="markers",marker_symbol="x",marker_color="green"))
 
 app = dash.Dash(__name__)
