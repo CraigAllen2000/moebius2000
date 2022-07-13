@@ -32,7 +32,7 @@ app.layout = html.Div([
     dcc.Input(
             id="date-input-end",
             type="text",
-            value="01-01-22",
+            value="01-02-22",
             placeholder="input type {}".format("text"),
         ),
     html.Div(
